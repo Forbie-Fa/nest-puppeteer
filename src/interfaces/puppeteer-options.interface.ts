@@ -1,5 +1,4 @@
 import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
-import type { LaunchOptions, ChromeArgOptions, BrowserOptions } from 'puppeteer';
 
 /**
  * Options that ultimately need to be provided to create a Puppeteer instance
@@ -7,7 +6,7 @@ import type { LaunchOptions, ChromeArgOptions, BrowserOptions } from 'puppeteer'
 export interface PuppeteerModuleOptions {
   instanceName?: string;
 
-  launchOptions?: LaunchOptions & ChromeArgOptions & BrowserOptions;
+  launchOptions?: any;
 }
 
 export interface PuppeteerOptionsFactory {

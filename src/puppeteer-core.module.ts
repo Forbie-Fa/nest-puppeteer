@@ -8,7 +8,7 @@ import {
   OnModuleDestroy,
 } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import type { LaunchOptions, Browser, BrowserContext } from 'puppeteer';
+import type { Browser, BrowserContext } from 'puppeteer';
 import { launch } from 'puppeteer';
 import {
   PUPPETEER_INSTANCE_NAME,
@@ -40,7 +40,7 @@ export class PuppeteerCoreModule
   }
 
   static forRoot(
-    launchOptions: LaunchOptions = DEFAULT_CHROME_LAUNCH_OPTIONS,
+    launchOptions: any = DEFAULT_CHROME_LAUNCH_OPTIONS,
     instanceName: string = DEFAULT_PUPPETEER_INSTANCE_NAME,
   ): DynamicModule {
     const instanceNameProvider = {
