@@ -1,7 +1,7 @@
 import { Module, DynamicModule } from '@nestjs/common';
 import { createPuppeteerProviders } from './puppeteer.providers';
 import { PuppeteerCoreModule } from './puppeteer-core.module';
-import type {
+import {
   PuppeteerModuleAsyncOptions,
   PuppeteerModuleOptions,
 } from './interfaces/puppeteer-options.interface';

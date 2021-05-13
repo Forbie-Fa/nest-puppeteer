@@ -1,5 +1,5 @@
 import { DynamicModule } from '@nestjs/common';
-import type { PuppeteerModuleAsyncOptions, PuppeteerModuleOptions } from './interfaces/puppeteer-options.interface';
+import { PuppeteerModuleAsyncOptions, PuppeteerModuleOptions } from './interfaces/puppeteer-options.interface';
 /**
  * Module for the Puppeteer
  */

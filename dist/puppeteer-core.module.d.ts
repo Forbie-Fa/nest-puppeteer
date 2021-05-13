@@ -1,6 +1,6 @@
 import { DynamicModule, OnApplicationShutdown, OnModuleDestroy } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import type { PuppeteerModuleAsyncOptions } from './interfaces/puppeteer-options.interface';
+import { PuppeteerModuleAsyncOptions } from './interfaces/puppeteer-options.interface';
 export declare class PuppeteerCoreModule implements OnApplicationShutdown, OnModuleDestroy {
     private readonly instanceName;
     private readonly moduleRef;

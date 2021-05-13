@@ -2082,8 +2082,8 @@
         "affectsGlobalScope": false
       },
       "../src/puppeteer.providers.ts": {
-        "version": "68a5e05ad63592e769dad765aeb5cd61f1a4f66d92e3e74e3de860ce263dd92b",
-        "signature": "75c79f8395b62ef52b3f3f1cab08c1163c1eaf0fb40c3479cbc02c6f97d7230f",
+        "version": "c5f93a7b770097330b61e4ea97a05e0010f851091ff4bdf2105ccd0599f8f862",
+        "signature": "6fe000c0d92ffabf8fc81e2eba785cc65def38d6d91c4a980abac9256bfc08a6",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2272,13 +2272,13 @@
         "affectsGlobalScope": false
       },
       "../src/puppeteer-core.module.ts": {
-        "version": "87e61ac46d1f67bb210b62550ee1a54dfc6a80f3b0468bf494199efa2bef2100",
-        "signature": "75086d23fe29422131b24549d19cc25713486c756de9267c99705f84b97b970d",
+        "version": "876ee1c62b67a6fe8b0d51eccdff3a41cc3b70c283a93378434e329b1b1e2393",
+        "signature": "99b962ccd6ad0b34c08f70a944ca1baada65c807223b9a269151964ef5428bfa",
         "affectsGlobalScope": false
       },
       "../src/puppeteer.module.ts": {
-        "version": "204c34d2f18e1a29720cf25108d1276bad858d7d0e7bfd0bc5816ecf03e89aef",
-        "signature": "35cbeed073b09cf39a69a82ec213aea3020ac84e1fc9ed167e103264e0f99c63",
+        "version": "2ceac86fe3c2be09ff006f9b3cd8d8e3239b66d6c2e9e25e614703cd6c448e71",
+        "signature": "92f812bbfeb5675838662c34bbe0dbffbaaa77202bd283a9e923990bd02dc3b2",
         "affectsGlobalScope": false
       },
       "../src/interfaces/index.ts": {

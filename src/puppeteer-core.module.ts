@@ -8,7 +8,7 @@ import {
   OnModuleDestroy,
 } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import type { Browser, BrowserContext } from 'puppeteer';
+import { Browser, BrowserContext } from 'puppeteer';
 import { launch } from 'puppeteer';
 import {
   PUPPETEER_INSTANCE_NAME,
@@ -16,7 +16,7 @@ import {
   DEFAULT_CHROME_LAUNCH_OPTIONS,
   PUPPETEER_MODULE_OPTIONS,
 } from './puppeteer.constants';
-import type {
+import {
   PuppeteerModuleAsyncOptions,
   PuppeteerOptionsFactory,
   PuppeteerModuleOptions,
